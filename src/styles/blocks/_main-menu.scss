@@ -1,0 +1,29 @@
+.main-menu {
+
+  ul {
+    display: flex;
+    list-style: none;
+
+  }
+
+  li {
+    margin-left: $gap-third;
+
+  }
+
+  a {
+    padding: 33px 25px;
+    color: $color-light;
+    font-family: $font;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    display: block;
+
+    &:hover {
+      background-color: $color-accent;
+    }
+  }
+
+}

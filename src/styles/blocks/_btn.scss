@@ -1,0 +1,16 @@
+.btn {
+  font-family: $font;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 57px;
+  text-align: center;
+  color: $color-light;
+  padding: 24px 75px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: $color-accent;
+  min-width: 497px;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+// Fonts
+$font : 'Open Sans' ,sans-serif;
+
+// colors
+
+$color-dark: #333333;
+$color-accent:#FF2D2D;
+$color-light: #FFFFFF;
+
+// indents
+
+$gap: 30px;
+$gap-third: calc($gap / 3);
+
+// breakpoints
+$mobile: 320px;
+$tablet: 768px;
+$desktop: 1280px;
+
+$mobile-max: $tablet - 1;
+$tablet-max: $desktop - 1;

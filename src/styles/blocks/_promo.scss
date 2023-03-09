@@ -1,0 +1,27 @@
+.promo {
+  text-align: center;
+  background-image: url(/images/promo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  .lead-fade {
+    padding: 200px 0 238px ;
+    background-color: rgba(0, 0, 0, 0.25)
+  }
+}
+
+.promo-inner {
+  @include inner;
+}
+
+
+.promo-title {
+  margin-bottom: 123px;
+  font-family: $font;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 98px;
+  color: $color-light;
+
+}

@@ -1,0 +1,63 @@
+.contacts {
+  padding: 130px 82px;
+  background-color: $color-light
+}
+
+.contacts-inner {
+  @include inner;
+}
+
+.contacts-title {
+  @include title;
+  margin-bottom: 80px;
+}
+
+.city-list {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+
+}
+
+.city-item {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.city-name {
+  font-family: $font;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  color: $color-dark;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-accent;
+  }
+}
+
+.contacts-visual {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.contacts-info {
+  margin: 0 auto;
+
+}
+
+.info-item {
+  padding-bottom: 20px;
+  font-family: $font;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  list-style: none;
+}
+
+.contacts-map {
+  max-width: 100%;
+}

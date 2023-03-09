@@ -1,0 +1,47 @@
+.reviews {
+  padding: 130px 0;
+  background-color: $color-light;
+}
+
+.reviews-inner {
+  @include inner;
+}
+
+.reviews-title {
+  @include title;
+  color: $color-dark;
+  margin-bottom: 80px;
+}
+
+.reviews-wrap {
+  display: flex;
+  margin-left: 128px;
+  margin-right: 128px;
+}
+
+.reviews-ava {
+  width: 304px;
+  height: 304px;
+  margin-right: 22px;
+
+}
+
+.reviews-info {
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+
+.reviews-name {
+  font-family: $font;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 65px;
+  margin-bottom: 40px;
+}
+
+.reviews-text {
+  font-family: $font;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+}

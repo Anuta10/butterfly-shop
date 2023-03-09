@@ -1,0 +1,23 @@
+@mixin logo {
+  font-family: $font;
+  color: $color-light;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 57px;
+  text-decoration: none;
+}
+
+
+@mixin inner {
+  width: 1276px;
+  margin: 0 auto;
+  border: 1px solid green;
+}
+
+@mixin title {
+  font-family: $font;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 87px;
+  text-align: center;
+}
