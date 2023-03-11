@@ -9,7 +9,8 @@
 
 
 @mixin inner {
-  width: 1276px;
+  max-width: 1278px;
+  padding: 0 $gap-third;
   margin: 0 auto;
   border: 1px solid green;
 }

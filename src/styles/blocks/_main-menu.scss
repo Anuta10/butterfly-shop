@@ -1,17 +1,18 @@
 .main-menu {
 
+
   ul {
     display: flex;
     list-style: none;
-
   }
 
   li {
-    margin-left: $gap-third;
+    margin-right: $gap-third;
 
   }
 
   a {
+
     padding: 33px 25px;
     color: $color-light;
     font-family: $font;
@@ -23,6 +24,11 @@
 
     &:hover {
       background-color: $color-accent;
+    }
+
+    @media (max-width: $mobile-max) {
+      display: none;
+
     }
   }
 

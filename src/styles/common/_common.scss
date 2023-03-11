@@ -5,9 +5,14 @@
 }
 
 body {
-  padding-top: 124px;
+  padding-top: 89px;
   font-family: $font;
   color: $color-dark;
+
+  @media (max-width: $mobile-max) {
+    padding-top: 69px;
+  }
+
 }
 
 

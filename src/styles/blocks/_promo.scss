@@ -6,9 +6,18 @@
   background-size: cover;
 
   .lead-fade {
-    padding: 200px 0 238px ;
-    background-color: rgba(0, 0, 0, 0.25)
+    padding: 200px 0 214px;
+    background-color: rgba(0, 0, 0, .4);
+
+    @media (max-width: $tablet-max) {
+      padding: 180px 0 190px;
+    }
+
+    @media (max-width: $mobile-max) {
+      padding: 110px 0 100px;
+    }
   }
+
 }
 
 .promo-inner {
@@ -17,11 +26,22 @@
 
 
 .promo-title {
-  margin-bottom: 123px;
+  margin-bottom: 100px;
   font-family: $font;
   font-weight: 600;
   font-size: 72px;
   line-height: 98px;
   color: $color-light;
+
+  @media (max-width: $tablet-max) {
+    font-size: 54px;
+    line-height: 74px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
 
 }
