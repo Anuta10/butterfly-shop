@@ -1,13 +1,41 @@
 .main-menu {
+   @media (max-width: $mobile-max) {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: $color-dark;
 
+  }
+
+  &.is-open {
+    @media (max-width: $mobile-max) {
+      display: block;
+    }
+  }
 
   ul {
     display: flex;
     list-style: none;
+
+    @media (max-width: $mobile-max) {
+      display: block;
+    }
   }
 
   li {
     margin-right: $gap-third;
+
+
+
+     @media (max-width: $mobile-max) {
+      margin-left: 0;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      text-align: center;
+    }
 
   }
 
@@ -27,7 +55,8 @@
     }
 
     @media (max-width: $mobile-max) {
-      display: none;
+      display: inline-block;
+      padding: 8px 25px;
 
     }
   }
