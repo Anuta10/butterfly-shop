@@ -1,6 +1,14 @@
 .form {
   margin: 0 auto;
   display: flex;
+
+  @media (max-width: $tablet-max) {
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: $mobile-max) {
+    display: block;
+  }
 }
 
 .form-inner {
@@ -11,6 +19,16 @@
   width: 100%;
   padding: 0 $gap-third;
 
+  @media (max-width: $tablet-max) {
+    flex-basis: 50%;
+  }
+
+}
+
+.form-btn {
+  @media (max-width: $tablet-max) {
+    flex-basis: 100%;
+  }
 }
 
 .form-label {
@@ -35,7 +53,14 @@
 }
 
 .form-btn {
-  height: 104px;
   margin-top: 20px;
   margin-bottom: 6px;
+
 }
+
+.btn-form {
+  @media (max-width: $tablet-max) {
+    width: 100%;
+  }
+}
+
