@@ -1,0 +1,48 @@
+.faq {
+  padding: 130px 0;
+}
+
+.faq-inner {
+  @include inner;
+}
+
+.faq-title {
+  text-align: center;
+  margin-bottom: 77px;
+  color: $color-dark;
+  font-family: $font;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 87px;
+
+}
+
+.accordion {
+  margin-bottom: 40px;
+  box-shadow: 0px 0px 8px rgba($color-accent, .2);
+  border-radius: 4px;
+}
+
+.accordion-btn {
+  width: 100%;
+  padding: 25px;
+  display: block;
+  font-family: $font;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 49px;
+  color: $color-dark;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+  text-align: left;
+
+}
+
+.accordion-answer {
+  display: none;
+  padding: 25px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+}
