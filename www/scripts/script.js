@@ -22,4 +22,19 @@ $(document).ready(function () {
 
   })
 
+
+
+  //Табы//
+
+  $('.j-contacts-name').on('click',function () {
+    let index = $(this).index('.j-contacts-name');
+
+    $('.j-contacts-name').removeClass('active');
+    $(this).addClass('active');
+
+    $('.j-contacts-item').removeClass('active');
+    $('.j-contacts-item').eq(index).addClass('active');
+
+  })
+
 })

@@ -1,6 +1,7 @@
 .contacts {
   padding: 130px 82px;
-  background-color: $color-light
+  background-color: $color-light;
+
 }
 
 .contacts-inner {
@@ -38,10 +39,15 @@
   }
 }
 
-.contacts-visual {
-  display: flex;
-  justify-content: space-between;
 
+.contacts-visual {
+  display: none;
+
+  &.active {
+    display:block;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .contacts-info {
